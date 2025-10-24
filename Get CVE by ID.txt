@@ -1,0 +1,22 @@
+RL: /api/cves/{id}
+
+Method: GET
+
+Description: Fetch a single CVE by ID
+
+3. Create a new CVE
+
+URL: /api/cves
+
+Method: POST
+
+Description: Add a new CVE record
+
+Request Example:
+{
+  "cveId": "CVE-1999-0334-8",
+  "description": "CVE description here",
+  "publishedDate": "1999-12-16T00:00:00",
+  "lastModifiedDate": "2022-10-17T00:00:00",
+  "status": "Analyzed"
+}

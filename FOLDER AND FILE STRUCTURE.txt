@@ -1,0 +1,10 @@
+Folder & File Structure
+
+SpringCrud Project-6
+│
+├── src
+│   └── mainjava...
+├── docs
+│   └── API-docs.md   -- this file
+└── pom.xml
+

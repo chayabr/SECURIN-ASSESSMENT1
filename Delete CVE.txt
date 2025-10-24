@@ -1,0 +1,13 @@
+Delete CVE
+
+URL: /api/cves/{id}
+
+Method: DELETE
+
+Description: Delete a CVE record by ID
+
+Response Example:
+
+{
+  "message": "CVE record deleted successfully"
+}

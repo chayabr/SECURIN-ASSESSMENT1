@@ -1,0 +1,34 @@
+# CVE Tracker API Documentation
+
+## Base URL
+http://localhost:9090/api/cves
+
+
+---
+
+## Endpoints
+
+### 1. Get All CVEs
+- **URL:** `/api/cves`
+- **Method:** GET
+- **Description:** Fetches all CVE records
+- **Response Example:**
+```json
+[
+  {
+    "id": 1,
+    "cveId": "CVE-2025-1234",
+    "description": "Example CVE description",
+    "publishedDate": "2025-10-14T22:00:00",
+    "lastModifiedDate": "2025-10-14T22:00:00",
+    "status": "Open"
+  },
+  {
+    "id": 2,
+    "cveId": "CVE-1999-0334-1",
+    "description": "In Solaris 2.2, 2.3, and 2.3_x86 when fsck fails on startup...",
+    "publishedDate": "1999-12-16T00:00:00",
+    "lastModifiedDate": "2022-10-17T00:00:00",
+    "status": "Analyzed"
+  }
+]
